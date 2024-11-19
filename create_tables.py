@@ -5,3 +5,7 @@ from app.models import User  # Ensure you import all models here
 print("Creating database tables...")
 Base.metadata.create_all(bind=engine)
 print("Tables created successfully.")
+
+
+if __name__ == "__main__":
+    create_tables()
