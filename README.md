@@ -12,17 +12,18 @@ Features
 1. Create a Virtual Environment
 
 
-python -m venv venv
-source venv/bin/activate  # For Linux/Mac
-venv\Scripts\activate     # For Windows
-Install Dependencies
+- python -m venv venv
+- source venv/bin/activate  # For Linux/Mac
+- venv\Scripts\activate     # For Windows
+  
+2. Install Dependencies
 
-pip install -r requirements.txt
-Set Up the Database Run the script to create tables in the database:
+- pip install -r requirements.txt
+- Set Up the Database Run the script to create tables in the database:
+- python create_tables.py
 
-
-python create_tables.py
-Start the Server Run the FastAPI application with Uvicorn:
+  
+3. Start the Server Run the FastAPI application with Uvicorn:
 
 
 uvicorn app.main:app --reload
