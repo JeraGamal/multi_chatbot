@@ -30,19 +30,7 @@ Access the Application
 
 API documentation: http://127.0.0.1:8000/docs
 Swagger UI: http://127.0.0.1:8000/redoc
-Project Structure
 
-
-app/
-├── main.py                # Entry point for the FastAPI application
-├── database.py            # Database setup and session management
-├── models.py              # SQLAlchemy ORM models
-├── routes/
-│   ├── auth.py            # Authentication routes
-│   ├── chatbots.py        # Chatbot-related routes
-└── utils/
-    ├── embedding.py         
-    ├── response.py
 Dependencies
 FastAPI
 Uvicorn
