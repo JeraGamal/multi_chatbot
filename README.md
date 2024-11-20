@@ -26,21 +26,15 @@ Features
 3. Start the Server Run the FastAPI application with Uvicorn:
 
 
-uvicorn app.main:app --reload
-Access the Application
+- uvicorn app.main:app --reload
+- Access the Application
 
-API documentation: http://127.0.0.1:8000/docs
-Swagger UI: http://127.0.0.1:8000/redoc
+- API documentation: http://127.0.0.1:8000/docs
+- Swagger UI: http://127.0.0.1:8000/redoc
 
-Dependencies
-FastAPI
-Uvicorn
-SQLAlchemy
-Pydantic
-Passlib
-NLTK
-SQLite (default database)
-Testing the API
+
+
+4. Testing the API
 Use the following tools to test API endpoints:
 
 cURL:
@@ -48,3 +42,13 @@ cURL:
 curl -X POST "http://127.0.0.1:8000/auth/register" \
      -d "username=user&email=user@example.com&password=secret"
 Postman or Swagger UI: Access http://127.0.0.1:8000/docs.
+
+
+5. Dependencies
+- FastAPI
+- Uvicorn
+- SQLAlchemy
+- Pydantic
+- Passlib
+- NLTK
+- SQLite (default database)
